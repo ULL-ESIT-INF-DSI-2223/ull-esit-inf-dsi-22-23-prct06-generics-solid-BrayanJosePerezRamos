@@ -1,0 +1,9 @@
+{
+  "entryPoints": [
+    "./src/ejercicio1.ts",
+    "./src/ejercicio2.ts",
+    "./src/productTable.ts",
+    "./src/racionalNums.ts"
+  ],
+  "out": "./docs"
+}
