@@ -1,5 +1,7 @@
 # Práctica 6: Clases e interfaces genéricas. Principios SOLID
 
+[![Coverage Status](https://coveralls.io/repos/github/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct06-generics-solid-BrayanJosePerezRamos/badge.svg?branch=main)](https://coveralls.io/github/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct06-generics-solid-BrayanJosePerezRamos?branch=main)
+
 En esta [práctica](https://ull-esit-inf-dsi-2223.github.io/prct06-generics-solid/) se pide realizar una serie de ejercicios para poner en práctica los conceptos de clases e interfaces genéricas y aplicando los principios SOLID de diseño orientado a objetos. Este informe contiene una explicación de mis soluciones a los ejercicios propuestos que son los siguientes:
 
 1. DSIflix
