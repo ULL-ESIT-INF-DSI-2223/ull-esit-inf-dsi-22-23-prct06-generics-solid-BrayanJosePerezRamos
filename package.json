@@ -1,5 +1,5 @@
 {
-  "name": "ull-esit-inf-dsi-22-23-prct05-objects-classes-interfaces-brayanjoseperezramos",
+  "name": "ull-esit-inf-dsi-22-23-prct06-generics-solid-brayanjoseperezramos",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,21 +7,22 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "tsc-watch --onSuccess \"node dist/ejercicio1.js\"",
+    "start": "tsc-watch --onSuccess \"node dist/ejercicio-3/bibliotecaMusical.js\"",
+    "coverage": "nyc npm test",
     "doc": "typedoc",
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct05-objects-classes-interfaces-BrayanJosePerezRamos"
+    "url": "git+https://github.com/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct06-generics-solid-BrayanJosePerezRamos"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct05-objects-classes-interfaces-BrayanJosePerezRamos"
+    "url": "https://github.com/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct06-generics-solid-BrayanJosePerezRamos"
   },
-  "homepage": "https://github.com/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct05-objects-classes-interfaces-BrayanJosePerezRamos",
+  "homepage": "https://github.com/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct06-generics-solid-BrayanJosePerezRamos",
   "devDependencies": {
     "@types/chai": "^4.3.4",
     "@types/mocha": "^10.0.1",
@@ -30,9 +31,11 @@
     "@typescript-eslint/parser": "^5.51.0",
     "chai": "^4.3.7",
     "console-table-printer": "^2.11.1",
+    "coveralls": "^3.1.1",
     "eslint": "^8.33.0",
     "eslint-config-prettier": "^8.6.0",
     "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
     "prettier": "^2.8.4",
     "ts-node": "^10.9.1",
     "tsc-watch": "^6.0.0",
